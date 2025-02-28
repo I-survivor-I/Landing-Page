@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    min-height: 100vh; /*Makes the <body> exactly as tall as the screen*/
+    margin: 0; /*Removes unwanted space around the edges*/
+    overflow: hidden; /*Prevents scrolling*/
+    font-family: Roboto, sans-serif; /*a clean, modern font*/
+    background-color: rgb(33, 33, 33);
+    margin: 0 240px; 
+}
+
+/*---- HEADER SECTION ------*/
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(31, 41, 55);
+    padding-left: 209px; 
+    padding-right: 209px;
+    flex-wrap: nowrap;                     /* Prevent header items from wrapping */
+    min-width: 585px;                      /* Stop header from shrinking too far */
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+.header .left-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.header .left-links li a {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.header .right-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    gap: 25px;
+}
+
+.header .right-links li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header .left-links li a:visited,
+.header .right-links li a:visited {
+    color: purple;
+}
+
+.header .left-links li a:active,
+.header .right-links li a:active {
+    color: red;
+}
+
+/*---- HEADER SECTION ------*/
+
+/*---- HERO SECTION ------*/
+
+/*---- HERO SECTION ------*/
