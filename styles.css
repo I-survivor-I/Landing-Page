@@ -4,7 +4,7 @@ body {
     min-height: 100vh; /*Makes the <body> exactly as tall as the screen*/
     margin: 0; /*Removes unwanted space around the edges*/
     overflow: hidden; /*Prevents scrolling*/
-    font-family: Roboto, sans-serif; /*a clean, modern font*/
+    font-family: 'Roboto', sans-serif; /*a clean, modern font*/
     background-color: rgb(33, 33, 33);
     margin: 0 240px; 
 }
@@ -69,5 +69,77 @@ body {
 /*---- HEADER SECTION ------*/
 
 /*---- HERO SECTION ------*/
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(31, 41, 55);
+    padding-left: 209px; 
+    padding-right: 209px;
+    padding-top: 100px;
+    padding-bottom: 133px;
+    flex-wrap: nowrap;                     /* Prevent header items from wrapping */
+    min-width: 585px;                      /* Stop header from shrinking too far */
+}
+
+.hero .left-items {
+    width: 460px;
+    height: 237px;
+    border: 0px solid red;
+}
+
+.hero .left-items h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.hero .left-items p {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #E5E7EB;  
+}
+
+.hero .left-items button {
+    background-color: #3882F6;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #F9FAF8;
+    padding-top: 8px;
+    padding-bottom: 7px;
+    padding-left: 35px;
+    padding-right: 34px;
+    border: none;
+    border-radius: 10px;
+}
+
+.hero .left-items button:hover {
+    background-color: #2b67c9;
+}
+
+.hero .left-items button:active {
+    background-color: #1a3f7a;
+}
+
+.hero .right-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 522px;
+    height: 237px;
+    background-color: rgb(109, 116, 125);
+    border: 0px solid blue;
+}
+
+.hero .right-items img {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
 
 /*---- HERO SECTION ------*/
