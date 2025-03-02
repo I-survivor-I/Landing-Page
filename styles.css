@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
 body {
     min-height: 100vh; /*Makes the <body> exactly as tall as the screen*/
@@ -115,6 +115,7 @@ body {
     padding-right: 34px;
     border: none;
     border-radius: 10px;
+    cursor: pointer; /* Changes cursor to hand on hover */
 }
 
 .hero .left-items button:hover {
@@ -193,3 +194,41 @@ body {
 }
 
 /*---- FEATURES SECTION ------*/
+
+/*---- QUOTE SECTION ------*/
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 209px; 
+    padding-right: 209px;
+    background-color: rgb(229, 231, 235);
+    flex-wrap: nowrap;                     /* Prevent header items from wrapping */
+    min-width: 585px;                      /* Stop header from shrinking too far */
+}
+
+.quote-container .quote p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    width: 800px;
+    margin-top: 130px;
+    margin-bottom: 0px;
+}
+
+.quote-container .author {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1F2937;
+    margin-top: 0px;
+    margin-bottom: 102px;
+    width: 750px;
+    text-align: end;
+}
+
+/*---- QUOTE SECTION ------*/
