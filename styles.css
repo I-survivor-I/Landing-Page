@@ -78,7 +78,7 @@ body {
     padding-right: 209px;
     padding-top: 100px;
     padding-bottom: 133px;
-    flex-wrap: nowrap;                     /* Prevent header items from wrapping */
+    flex-wrap: nowrap;                     /* Prevent hero items from wrapping */
     min-width: 585px;                      /* Stop header from shrinking too far */
 }
 
@@ -153,7 +153,7 @@ body {
     align-items: center;
     padding-left: 209px; 
     padding-right: 209px;
-    flex-wrap: nowrap;                     /* Prevent header items from wrapping */
+    flex-wrap: nowrap;                     /* Prevent features items from wrapping */
     min-width: 585px;                      /* Stop header from shrinking too far */
     background-color: white;
 }
@@ -194,6 +194,7 @@ body {
 }
 
 /*---- FEATURES SECTION ------*/
+<<<<<<< HEAD
 
 /*---- QUOTE SECTION ------*/
 
@@ -232,3 +233,5 @@ body {
 }
 
 /*---- QUOTE SECTION ------*/
+=======
+>>>>>>> 2cad50dc4e09e80c51594d5af88cf8d5f118fff3
