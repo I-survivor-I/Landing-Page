@@ -232,3 +232,74 @@ body {
 }
 
 /*---- QUOTE SECTION ------*/
+
+/*---- CTA SECTION ------*/
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding-left: 209px; 
+    padding-right: 209px;
+    flex-wrap: nowrap;                     /* Prevent header items from wrapping */
+    min-width: 585px;                      /* Stop header from shrinking*/
+}
+
+.cta .cta-box {
+    width: 1024px;
+    height: 140px;
+    margin-top: 99px;
+    margin-bottom: 99px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;                     /* Prevent header items from wrapping */
+    min-width: 880px;                      /* Stop header from shrinking*/
+    background-color: rgb(59, 130, 246);
+    border-radius: 8px;
+}
+  
+.cta .cta-box .left-items {
+    border: 0px solid red;
+}
+
+.cta .cta-box .left-items h3 {
+    margin: 0;
+    margin-left: 121px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.cta .cta-box .left-items p {
+    margin: 0;
+    margin-left: 120px;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(229, 231, 235);
+    
+}
+
+.cta .cta-box .right-items button {
+    background-color: rgb(59, 130, 246);
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    border-radius: 8px;
+    padding: 6px 32px 5px 33px;
+    border: 2px solid white;
+    color: white;
+    margin-right: 120px;
+    cursor: pointer; /* Changes cursor to hand on hover */
+}
+
+.cta .cta-box .right-items button:hover {
+    background-color: #2b67c9;
+}
+
+.cta .cta-box .right-items button:active {
+    background-color: #1a3f7a;
+}
+
+/*---- CTA SECTION ------*/
