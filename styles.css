@@ -303,3 +303,26 @@ body {
 }
 
 /*---- CTA SECTION ------*/
+
+/*---- FOOTER SECTION ------*/
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(31, 41, 55);
+    padding-left: 209px; 
+    padding-right: 209px;
+    flex-wrap: nowrap;                     /* Prevent header items from wrapping */
+    min-width: 585px;                      /* Stop header from shrinking*/ 
+}
+
+footer .footer-item p {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: white;
+    font-size: 18px;
+
+}
+
+/*---- FOOTER SECTION ------*/
